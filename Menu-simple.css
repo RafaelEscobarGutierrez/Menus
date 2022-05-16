@@ -1,0 +1,35 @@
+
+/* ELEMENTOS DE LISTA */
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+/* CAJA DEL MENU */
+.menu{
+    padding: 0%;
+    width: 70%;
+    margin: auto;
+
+    background-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+} 
+
+/* ELEMENTOS DE ENLACE */
+.menu li a{
+    color: aqua;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+}
+
+/* EFECTOS DE ELEMETOS DE ENLACE AL PASAR EL CURSOR*/
+.menu li a:hover{ 
+    background-color: aqua;
+    color: black;
+}
+
+/* EFECTOS DE ELEMENTOS DE ENLACE AL DAR CLICK */
+.menu li a:active{
+    color: grey;
+}
